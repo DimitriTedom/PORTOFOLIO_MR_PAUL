@@ -5,6 +5,10 @@ import Navbar from './components/Navbar';
 import SkillBar from './components/SkillBar';
 import ProjectCard from './components/ProjectCard';
 import ContactForm from './components/formu';
+import paulimage from './images/paul1.jpeg';
+import projet1 from './images/projet1.svg';
+import projet2 from './images/projet2.svg';
+import projet3 from './images/projet3.svg';
 
 function App() {
   const skills = [
@@ -20,21 +24,21 @@ function App() {
     {
       title: 'Construction dune ferme Agricole',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: '/images/projet1.svg',
+      image: projet1,
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     },
     {
       title: 'Urban Housing Complex',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: '/images/projet2.svg',
+      image: projet2,
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     },
     {
       title: 'Green Infrastructure Project',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: '/images/projet3.svg',
+      image: projet3,
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     }
@@ -54,7 +58,7 @@ function App() {
               transition={{ duration: 0.5 }}
             >
               <img
-                src='/images/paul1.jpeg'
+                src= {paulimage}
                 alt="Paul Tekeu"
                 className="rounded-2xl shadow-xl"
               />
