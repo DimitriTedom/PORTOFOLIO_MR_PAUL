@@ -119,8 +119,8 @@ function App() {
                 <h3 className="text-xl font-bold mb-2 text-steel-blue">Mission</h3>
                 <p>Implementing innovative engineering solutions while prioritizing environmental responsibility</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold mb-2 text-steel-blue hover:scale-105 hover:shadow-xl">Values</h3>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-xl">
+                <h3 className="text-xl font-bold mb-2 text-steel-blue ">Values</h3>
                 <p>Excellence, Sustainability, Innovation, and Integrity</p>
               </div>
             </div>
