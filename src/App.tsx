@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="bg-white">
-      <Navbar />
+      <Navbar /> 
       
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-white to-gray-50">
