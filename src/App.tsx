@@ -20,21 +20,21 @@ function App() {
     {
       title: 'Construction dune ferme Agricole',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: './src/images/projet1.svg',
+      image: './images/projet1.svg',
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     },
     {
       title: 'Urban Housing Complex',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: './src/images/projet2.svg',
+      image: './images/projet2.svg',
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     },
     {
       title: 'Green Infrastructure Project',
       description: 'Visualization and construction of an agricultural farm that is both ecological and economical.',
-      image: './src/images/projet3.svg',
+      image: './images/projet3.svg',
       tools: ['AutoCAD', 'ARCHICAD', 'LUMION'],
       impact: 'As answer to School Project'
     }
@@ -54,7 +54,7 @@ function App() {
               transition={{ duration: 0.5 }}
             >
               <img
-                src='./src/images/paul1.jpeg'
+                src='./images/paul1.jpeg'
                 alt="Paul Tekeu"
                 className="rounded-2xl shadow-xl"
               />
