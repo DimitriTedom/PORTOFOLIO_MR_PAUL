@@ -209,10 +209,10 @@ function App() {
               <div className="mt-8">
                 <h4 className="text-xl font-bold mb-4">Connect with me</h4>
                 <div className="flex gap-4">
-                  <a href="https://www.linkedin.com/in/kacil-takou-63b3682a2/" className="text-steel-blue hover:text-blue-600 transition">
+                  <a href="https://www.linkedin.com/in/kacil-takou-63b3682a2/" className="text-steel-blue hover:text-blue-600 transition" target='_blank'>
                     <Linkedin size={24} />
                   </a>
-                  <a href="https://www.facebook.com/paul.tekeu.33/" className="text-steel-blue hover:text-blue-600 transition">
+                  <a href="https://www.facebook.com/paul.tekeu.33/" className="text-steel-blue hover:text-blue-600 transition" target='_blank'>
                     <Facebook size={24} />
                   </a>
                 </div>

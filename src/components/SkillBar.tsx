@@ -14,7 +14,7 @@ const SkillBar: React.FC<SkillBarProps> = ({ name, level }) => {
         <span className="text-[#525FE1] font-medium">{level}%</span>
       </div>
       <div className="skill-bar">
-        <motion.div
+        <motion.div  
           className="skill-progress"
           initial={{ width: 0 }}
           whileInView={{ width: `${level}%` }}
